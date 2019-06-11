@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 html, body, #root {
   height: 100%;
+  background-color: rgb(61, 61, 61);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: light;
+  font-size: 1.1em;
 }
 .wrapper {
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
   padding: 1em;
   height: 100%;
+}
+
+#main {
+  text-align: center;
 }

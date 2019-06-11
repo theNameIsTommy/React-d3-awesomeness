@@ -1,0 +1,22 @@
+h3 span {
+    background-color:rgb(54, 54, 54);
+    font-weight: light;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color:rgba(255, 255, 255, 0.359);
+    transition: 0.5s ease-in-out;
+}
+
+/* TODO: make indicators larger: DONE*/
+
+ol.carousel-indicators li {
+    width: 80px;
+    height: 8px;
+}
+
+/* .carousel-control-prev-icon {
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' …3cpath d='M2.75 02-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e);
+} */
+
